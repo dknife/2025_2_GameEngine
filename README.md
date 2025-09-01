@@ -13,10 +13,14 @@
 
 강의 자료: 홈페이지 공개 자료 및 유인물
 
+참고 강의
+
+[Modern Game Engine - Learning notes for Game 104](https://github.com/randaldong/ModernGameEngine/tree/main)
+
 ## 과제
 
 ### 과제 1
-집에 있는 컴퓨터나 가지고 있는 노트북에 Unity을 설치하여 간단한 템플릿을 활용해 프로젝트를 생성해 본다.
+집에 있는 컴퓨터나 가지고 있는 노트북에 간단한 엔진을 설치해 본다. (Piccolo Engine)
 
 ## Lec 0: 유니티 설치
 
