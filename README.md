@@ -13,15 +13,33 @@
 
 강의 자료: 홈페이지 공개 자료 및 유인물
 
-참고 강의
-
+### 참고 강의
 [Modern Game Engine - Learning notes for Game 104](https://github.com/randaldong/ModernGameEngine/tree/main)
+
+
+### 간단한(?) 게임 엔진
+[피콜로 엔진](https://github.com/BoomingTech/Piccolo)
 
 ## 과제
 
 ### 과제 1
 집에 있는 컴퓨터나 가지고 있는 노트북에 간단한 엔진을 설치해 본다. (Piccolo Engine)
 
-## Lec 0: 유니티 설치
+## Lec 0: 엔진 설치
 
-[유니티 설치]()
+[피콜로 엔진 설치]
+
+> cmake -S . -B build 
+
+- engine\3rdparty\tinyobjloader\CMakeLists.txt: 5: cmake_minimum_required 3.5 )
+
+
+> cd build
+> cmake --build . --config Release
+
+-  endgin\3rdparty\JoltPhysics\Jolt\Core\JobSystemThreadPool.cpp  (include <chrono.h> and make its literal avalable)
+
+```
+#include <chrono>
+using namespace std::chrono_literals;
+```
