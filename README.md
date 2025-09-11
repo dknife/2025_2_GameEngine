@@ -47,3 +47,8 @@ using namespace std::chrono_literals;
 ### Lec 1: 게임엔진 소개
 
 [강의노트 1 Overview of Game Engine](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/Lecture%2001_Overview%20of%20Game%20Engine%20K.pdf)
+
+
+### Lec 2: 게임엔진의 계층
+
+[강의노트 2 Overview of Game Engine](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/Lecture%2001_Overview%20of%20Game%20Engine%20K.pdf)
