@@ -55,4 +55,4 @@ using namespace std::chrono_literals;
 
 ### Lec 3: 게임의 구성
 
-[강의노트 3 Game World)()
+[강의노트 3 Game World)(https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/Lecture%2003_How%20to%20Build%20a%20Game%20World%20K.pdf)
