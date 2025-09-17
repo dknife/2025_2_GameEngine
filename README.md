@@ -52,3 +52,7 @@ using namespace std::chrono_literals;
 ### Lec 2: 게임엔진의 계층
 
 [강의노트 2 Layers](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/Lecture%2002_Layered%20Architecture%20of%20Game%20Engine%20K.pdf)
+
+### Lec 3: 게임의 구성
+
+[강의노트 3 Game World)()
