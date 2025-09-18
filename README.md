@@ -58,3 +58,5 @@ using namespace std::chrono_literals;
 [강의노트 3 Game World](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/Lecture%2003_How%20to%20Build%20a%20Game%20World%20K.pdf)
 
 [강의노트 3-B 실습: 실제 게임엔진의 설치와 사용 (Unity, Godot)](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/LecEx1_Unity_Godot%EC%9D%B5%EC%88%99%ED%95%B4%EC%A7%80%EA%B8%B0.pdf)
+
+** [참고 스크립트](https://github.com/dknife/2025_2_GameEngine/wiki/2025GE_firstscript)
