@@ -63,6 +63,7 @@ using namespace std::chrono_literals;
 
 * [참고 스크립트](https://github.com/dknife/2025_2_GameEngine/wiki/2025GE_firstscript)
 
+### Verse8 특강
 
 ### Lec 4: 게임엔진과 렌더링
 
