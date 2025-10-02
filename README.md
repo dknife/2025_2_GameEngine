@@ -70,3 +70,5 @@ using namespace std::chrono_literals;
 [강의노트 4 게임 렌더링 기초](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/Lecture%2004_Rendering%20in%20Game%20Engine_Basics%20of%20Game%20Rendering%20K.pdf)
 
 [강의노트 4-B 고도 엔진 Shader 실습](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/LecEx2_GodotShader%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0.pdf)
+
+* [Ocean Shader](https://docs.google.com/document/d/1oH7YqjDFJtVOlfsmHCGpJ8riYdrRH_V3LUsAmdrnWPw/edit?usp=sharing)
