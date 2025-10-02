@@ -62,3 +62,9 @@ using namespace std::chrono_literals;
 * [project example](https://github.com/dknife/2025_2_GameEngine/raw/main/Projects/project1/3d_squash_the_creeps_starter.zip)
 
 * [참고 스크립트](https://github.com/dknife/2025_2_GameEngine/wiki/2025GE_firstscript)
+
+  ### Lec 4: 게임엔진과 렌더링
+
+  [강의노트 4 게임 렌더링 기초](https://github.com/dknife/2025_2_GameEngine/blob/main/LectureNotes/Lecture%2004_Rendering%20in%20Game%20Engine_Basics%20of%20Game%20Rendering%20K.pdf)
+
+  [강의노트 4-B 고도 엔진 Shader 실습](https://github.com/dknife/2025_2_GameEngine/blob/main/LectureNotes/Lecture%2004_Rendering%20in%20Game%20Engine_Basics%20of%20Game%20Rendering%20K.pdf)
