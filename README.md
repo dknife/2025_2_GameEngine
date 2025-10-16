@@ -77,4 +77,4 @@ using namespace std::chrono_literals;
 
 [강의노트 5 게임엔진의 렌더링 이론과 활용](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/Lecture%2005_Rendering%20in%20Game%20Engine_Lighting_Materials%20and%20Shaders.pdf)
 
-* [Resources]()
+* [Resources](https://github.com/dknife/2025_2_GameEngine/raw/main/Projects/resource_shading.zip)
