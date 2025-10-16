@@ -72,3 +72,9 @@ using namespace std::chrono_literals;
 [강의노트 4-B 고도 엔진 Shader 실습](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/LecEx2_GodotShader%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0.pdf)
 
 * [Ocean Shader](https://docs.google.com/document/d/1oH7YqjDFJtVOlfsmHCGpJ8riYdrRH_V3LUsAmdrnWPw/edit?usp=sharing)
+
+### Lec 5: 렌더링 2
+
+[강의노트 5 게임엔진의 렌더링 이론과 활용]()
+
+
