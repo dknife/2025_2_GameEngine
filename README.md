@@ -82,3 +82,9 @@ using namespace std::chrono_literals;
 ### Lec 6: 애니메이션 기초
 
 [강의노트 6 게임엔진에 사용되는 애니메이션 기술 기초](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/Lecture%2008_Animation%20System_Basics%20of%20Animation%20Technology.pdf)
+
+[강의 노트 6-B 고도 엔진 애니메이션 연습]()
+
+* [캐릭터 스프라이트](https://github.com/dknife/2025_2_GameEngine/blob/main/Projects/gBot_complete.webp)
+
+* 
