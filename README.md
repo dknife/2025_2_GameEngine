@@ -86,5 +86,5 @@ using namespace std::chrono_literals;
 [강의 노트 6-B 고도 엔진 애니메이션 연습]()
 
 * [캐릭터 스프라이트](https://github.com/dknife/2025_2_GameEngine/blob/main/Projects/gBot_complete.webp)
-
-* 
+* [캐릭터 구성 요소 스프라이트](https://github.com/dknife/2025_2_GameEngine/blob/main/Projects/gBot_pieces.png)
+ 
