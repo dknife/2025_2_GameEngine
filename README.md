@@ -93,4 +93,4 @@ using namespace std::chrono_literals;
 
 [강의노트 7 다양한 애니메이션 기술](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/Lecture%2009_Animation%20System_Advanced%20Animation%20Technology.pdf)
 
-[강의노트 7-B 애니메이션 데이터 통합 FBX 만들기 + 블렌딩 실습]()
+[강의노트 7-B 애니메이션 데이터 통합 FBX 만들기 + 블렌딩 실습](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/LecEx7_AnimationClips.pdf)
