@@ -88,3 +88,9 @@ using namespace std::chrono_literals;
 * [캐릭터 스프라이트](https://github.com/dknife/2025_2_GameEngine/blob/main/Projects/gBot_complete.webp)
 * [캐릭터 구성 요소 스프라이트](https://github.com/dknife/2025_2_GameEngine/blob/main/Projects/gBot_pieces.png)
  
+
+### Lec 7: 애니메이션 블렌딩
+
+[강의노트 7 다양한 애니메이션 기술]()
+
+[강의노트 7-B 애니메이션 데이터 통합 FBX 만들기 + 블렌딩 실습]()
