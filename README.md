@@ -97,4 +97,4 @@ using namespace std::chrono_literals;
 
 
 ### Lec 8: 물리기반 애니메이션 - 개념
-[강의노트 8 물리기반 애니메이션 개념](https://github.com/dknife/2025_2_GameEngine/blob/main/LectureNotes/Lecture%2010_Physics%20System_Basic%20Concepts.pdf)
+[강의노트 8 물리기반 애니메이션 개념](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/Lecture%2010_Physics%20System_Basic%20Concepts.pdf)
