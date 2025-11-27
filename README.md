@@ -108,4 +108,6 @@ using namespace std::chrono_literals;
 
 ### Lec 9: Effects
 
-[입자시스템 Particle System](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/Lecture%2012_Effects.pdf)
+[강의노트 9 입자시스템 Particle System](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/Lecture%2012_Effects.pdf)
+
+[강의노트 9-B 입자시스템 활용]()
