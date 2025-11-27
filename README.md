@@ -105,3 +105,7 @@ using namespace std::chrono_literals;
 
 * [기본실습 - 물리운동 스크립트 + RigidBody3D](https://github.com/dknife/2025_2_GameEngine/tree/main/LectureNotes/PhysicsTest01)
 * [물리객체 자동 생성](https://github.com/dknife/2025_2_GameEngine/tree/main/LectureNotes/PhysicsTest02)
+
+### Lec 9: Effects
+
+[입자시스템 Particle System](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/Lecture%2012_Effects.pdf)
