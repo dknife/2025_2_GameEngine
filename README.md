@@ -114,4 +114,4 @@ using namespace std::chrono_literals;
 
 ### Lec 10: Physics Demo + UI / Input
 
-[강의노트 10 도미노 게임](https://github.com/dknife/2025_2_GameEngine/blob/main/LectureNotes/LecEx10_PhysicsDemo.pdf)
+[강의노트 10 도미노 게임](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/LecEx10_PhysicsDemo.pdf)
