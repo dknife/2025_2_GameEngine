@@ -111,3 +111,7 @@ using namespace std::chrono_literals;
 [강의노트 9 입자시스템 Particle System](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/Lecture%2012_Effects.pdf)
 
 [강의노트 9-B 입자시스템 활용](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/LecEx9_ParticleSystem.pdf)
+
+### Lec 10: Physics Demo + UI / Input
+
+[강의노트 10 도미노 게임](https://github.com/dknife/2025_2_GameEngine/blob/main/LectureNotes/LecEx10_PhysicsDemo.pdf)
