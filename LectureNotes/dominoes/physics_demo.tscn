@@ -16,6 +16,8 @@ size = Vector3(1000, 1, 1000)
 
 [node name="PhysicsDemo" type="Node3D"]
 script = ExtResource("1_0pas4")
+radius_speed = 4.0
+height_speed = 1.0
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
@@ -33,17 +35,17 @@ transform = Transform3D(-0.010157644, 0.35090846, -0.93635464, 0, 0.936403, 0.35
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.9663358, 0.090288006, -0.24092208, 0.11453451, 0.68753827, 0.71705866, 0.23038496, -0.7205133, 0.65405166, -8.054394, 7.555559, 10.338146)
 
-[node name="domino" parent="." instance=ExtResource("1_l7oky")]
+[node name="dominoRoot" parent="." instance=ExtResource("1_l7oky")]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
-[node name="Control" type="Control" parent="CanvasLayer"]
+[node name="UIContainer" type="Control" parent="CanvasLayer"]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="LineEdit" type="LineEdit" parent="CanvasLayer/Control"]
+[node name="LineEdit" type="LineEdit" parent="CanvasLayer/UIContainer"]
 layout_mode = 0
 offset_left = 3.0
 offset_top = 7.0
@@ -51,7 +53,7 @@ offset_right = 102.0
 offset_bottom = 38.0
 text = "10"
 
-[node name="Button" type="Button" parent="CanvasLayer/Control"]
+[node name="Button" type="Button" parent="CanvasLayer/UIContainer"]
 layout_mode = 0
 offset_left = 115.0
 offset_top = 2.0
