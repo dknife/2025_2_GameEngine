@@ -3,6 +3,7 @@ extends Node3D
 @onready var domino_count_input: LineEdit = $CanvasLayer/UIContainer/LineEdit
 @onready var generate_button: Button = $CanvasLayer/UIContainer/Button
 @onready var camera: Camera3D = $Camera3D
+@onready var domino_root: Node3D = $dominoRoot
 
 var domino_scene: PackedScene = preload('res://domino.tscn')
 var dominoes: Array = []  
@@ -17,24 +18,26 @@ func _on_generate_pressed():
 		generate_spiral_dominoes(count)
 		
 func generate_spiral_dominoes(num_dominoes: int):
-	dominoes.clear()
+	const FORWARD: float = 1.0
+	var turn: float = deg_to_rad(-9.0)
+	const DECAY: float = 0.98
 	
-	var a: float = 0.1
-	var b: float = 0.1
-	var theta: float = 0.0
-	var theta_step : float = PI/6
+	var current_transform := Transform3D()
+	current_transform.origin = Vector3(FORWARD, 0, 0) # 첫번째 도미노의 위치
 	
 	for i in range(num_dominoes):
-		var r = a + b * theta
-		var x = r * cos(theta)
-		var z = r * sin(theta)
-		var domino = domino_scene.instantiate()
-		domino.position = Vector3(x, 0.0, z)
-		domino.rotation = Vector3(0, theta, 0)
-		add_child(domino)
-		dominoes.append(dominoes)
+		var domino = domino_scene.instantiate() as RigidBody3D
 		
-		theta += theta_step
+		domino.global_transform = current_transform
+		domino_root.add_child(domino)
+		
+		current_transform = Transform3D(current_transform.basis, current_transform.origin) \
+		* Transform3D(Basis(), Vector3(FORWARD, 0, 0)) \
+		* Transform3D(Basis().rotated(Vector3.UP, turn), Vector3.ZERO)
+	
+		turn *= DECAY
+		
+	
 		
 func _input(event):
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
