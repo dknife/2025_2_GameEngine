@@ -1,0 +1,60 @@
+[gd_scene load_steps=6 format=3 uid="uid://dg1lnrpcvnao2"]
+
+[ext_resource type="Script" uid="uid://bflmkmm2tglbo" path="res://main.gd" id="1_0pas4"]
+[ext_resource type="PackedScene" uid="uid://cx4b528cc1j3q" path="res://domino.tscn" id="1_l7oky"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ks4tp"]
+transparency = 1
+albedo_color = Color(0.42352942, 1, 1, 0.2784314)
+
+[sub_resource type="BoxMesh" id="BoxMesh_l7oky"]
+material = SubResource("StandardMaterial3D_ks4tp")
+size = Vector3(1000, 1, 1000)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ks4tp"]
+size = Vector3(1000, 1, 1000)
+
+[node name="PhysicsDemo" type="Node3D"]
+script = ExtResource("1_0pas4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+mesh = SubResource("BoxMesh_l7oky")
+skeleton = NodePath("../..")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("BoxShape3D_ks4tp")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-0.010157644, 0.35090846, -0.93635464, 0, 0.936403, 0.35092658, 0.9999484, 0.003564587, -0.009511648, -16.767418, 8.75051, -0.1500597)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.9663358, 0.090288006, -0.24092208, 0.11453451, 0.68753827, 0.71705866, 0.23038496, -0.7205133, 0.65405166, -8.054394, 7.555559, 10.338146)
+
+[node name="domino" parent="." instance=ExtResource("1_l7oky")]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="LineEdit" type="LineEdit" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 7.0
+offset_right = 102.0
+offset_bottom = 38.0
+text = "10"
+
+[node name="Button" type="Button" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_left = 115.0
+offset_top = 2.0
+offset_right = 203.0
+offset_bottom = 40.0
+text = "Generate"
