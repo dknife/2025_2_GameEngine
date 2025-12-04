@@ -53,8 +53,40 @@ func _input(event):
 			var domino = result.collider
 			var force_dir = (domino.position - camera.position).normalized()
 			domino.apply_central_impulse(force_dir * 10)
-			
-		
+			start_camera_follow()
+
+var cinematic_mode := false
+var cam_radius := 3.0
+var cam_angle := 0.0
+var cam_height := 5.0
+
+@export var radius_speed := 8.0
+@export var rotate_speed := 0.35
+@export var height_speed :=  3.5
+
+func start_camera_follow() :
+	cinematic_mode = true
+
+func _process(delta):
+	if not cinematic_mode:
+		return
+	
+	# 수치 적분	
+	cam_radius += radius_speed * delta
+	cam_angle += rotate_speed * delta	
+	cam_height += height_speed * delta
+	
+	var x = cos(cam_angle) * cam_radius
+	var z = sin(cam_angle) * cam_radius
+	var y = cam_height
+	
+	camera.global_position = Vector3(x, y, z)
+	camera.look_at( Vector3(0, 3, 0), Vector3.UP)
+	
+	
+	
+	
+
 		
 		
 		
