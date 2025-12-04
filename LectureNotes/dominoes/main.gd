@@ -17,11 +17,7 @@ func _on_generate_pressed():
 		generate_spiral_dominoes(count)
 		
 func generate_spiral_dominoes(num_dominoes: int):
-	# 기존 도미노 제거
-	for d in dominoes:
-		d.queue_free()
-	dominoes.clear()
-	
+
 	var a: float = 0.1
 	var b: float = 0.1
 	var theta: float = 0.0
