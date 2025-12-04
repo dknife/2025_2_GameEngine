@@ -117,3 +117,5 @@ using namespace std::chrono_literals;
 [강의노트 10 도미노 게임](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/LecEx10_PhysicsDemo.pdf)
 
 * [도미노 설치하고 힘을 주어 넘기기](https://github.com/dknife/2025_2_GameEngine/blob/main/LectureNotes/dominoes/main.gd)
+
+* [도미노에 부착하는 파티클 제어 스크립트](https://github.com/dknife/2025_2_GameEngine/blob/main/LectureNotes/dominoes/domino.gd)
