@@ -1,4 +1,5 @@
 # 2025_2 게임엔진 기초 (게임그래픽학과 전공교과)
+## [기말고사](https://github.com/dknife/2025_2_GameEngine/raw/main/LectureNotes/202502_%EA%B8%B0%EB%A7%90%EA%B3%A0%EC%82%AC_%EA%B2%8C%EC%9E%84%EC%97%94%EC%A7%84.pdf)
 
 동명대학교 게임학부 강영민 교수
 
